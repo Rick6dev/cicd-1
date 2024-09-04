@@ -14,4 +14,6 @@ jobs:
     steps:
         - name: descagar el repo
           uses: actions/checkout@v2
-        
+
+        - name: Hola Push
+          run: echo "Hola Putas 😊" 
