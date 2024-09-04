@@ -1,0 +1,17 @@
+name: HolaMundo
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - realeases
+      - hotfix
+jobs:
+  Saludos:
+    runs-on: ubuntu-latest
+
+    steps:
+        - name: descagar el repo
+          uses: actions/checkout@v2
+        
